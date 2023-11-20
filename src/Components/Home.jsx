@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Pana from '../image/pana.png'
+import pana from '../image/pana.png'
 import Aos from 'aos'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
@@ -51,7 +51,7 @@ const Home = () => {
     </div>
 
       <div className='sm:py-10'>
-        <img className='' src={Pana} width={400} alt="" />
+        <img className='' src={pana} width={400} alt="" />
     </div>
     </div>
     </div>
