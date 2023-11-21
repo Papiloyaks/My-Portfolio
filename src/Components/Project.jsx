@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import Ailf from '../assets/image/ailf.jpg'
-import Corporate from '../assets/image/corporate.png'
-import Jumy from '../assets/image/jumy.png'
+import ailf from '../images/ailf.jpg'
+import corporate from '../images/corporate.png'
+import jumy from '../images/jumy.png'
 import Aos from 'aos'
 
 
@@ -34,8 +34,8 @@ const Project = () => {
             <a className='border bg-black text-sm rounded-xl hover:bg-transparent p-2 text-amber-200' href=" https://papiloyaks.github.io/A.I-Lucky-Foundation/">Check here</a>
             </p>
           </div>
-          <div className='lg:ms-60 py-5'>
-            <img src={Ailf} width={150} alt="" />
+          <div className='lg:ms-60 py-5' data-aos="fade-up">
+            <img src={ailf} width={150} alt="" />
           </div>
         </div>
         <hr/>
@@ -54,7 +54,7 @@ const Project = () => {
             </p>
           </div>
           <div className='lg:ms-60 py-5'>
-            <img src={Corporate} width={170} alt="" />
+            <img src={corporate} width={170} alt="" />
           </div>
         </div>
         <hr/>
@@ -72,7 +72,7 @@ const Project = () => {
             </p>
           </div>
           <div className='lg:ms-60 py-5'>
-            <img src={Jumy} width={150} alt="" />
+            <img src={jumy} width={150} alt="" />
           </div>
         </div>
         <hr/>

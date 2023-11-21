@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import gram from '../assets/image/gram.png'
-import respon from '../assets/image/respon.png'
-import  web from '../assets/image/web.png'
-import design from '../assets/image/design.png'
-import apps from '../assets/image/apps.png'
-import bug from '../assets/image/bug.png'
+import gram from '../images/gram.png'
+import respon from '../images/respon.png'
+import  web from '../images/web.png'
+import design from '../images/design.png'
+import apps from '../images/apps.png'
+import bug from '../images/bug.png'
 import Aos from 'aos'
 
 const Services = () => {
