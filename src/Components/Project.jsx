@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
-import Ailf from '../image/ailf.jpg'
-import Corporate from '../image/corporate.png'
-import Jumy from '../image/jumy.png'
+import Ailf from '../assets/image/ailf.jpg'
+import Corporate from '../assets/image/corporate.png'
+import Jumy from '../assets/image/jumy.png'
 import Aos from 'aos'
 
 

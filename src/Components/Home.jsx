@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import pana from '../image/pana.png'
+import pana from '../assets/image/pana.png'
 import Aos from 'aos'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
