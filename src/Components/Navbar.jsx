@@ -5,9 +5,9 @@ import { Link } from 'react-scroll'
 const Navbar = () => {
   return (
     <>
-    <div className='bg-slate-800 w-full py-2 text-slate-50 z-50'>
+    <div className='bg-slate-800 w-full hidden lg:block py-2 text-slate-50'>
       <nav>
-        <div>
+        <div className=''>
           <ul className='flex justify-center gap-5'>
           {
             navList.map((items, index)=>(

@@ -32,8 +32,8 @@ function App() {
     <>
     <div>
     <Navbar/>
-    <ul className='lg:hidden sm:block fixed top-0 z-{1000}'>
-      <li className='w-screen text-white bg-pink-900 p-3'>
+    <ul className='lg:hidden sm:block'>
+      <li className='w-screen text-white bg-pink-900 top-0 p-3 fixed z-[10000]'>
         <FaBars onClick={toggleIsOpen}/>
       </li>
     </ul>

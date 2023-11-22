@@ -27,7 +27,7 @@ const Project = () => {
       <h1 className='ms-10 font-meduim text-amber-200 p-9 font-mono mt-20'>------- My Project</h1>
     <section className=''>
       <div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800' id='portfolio'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800' id='portfolio'>
           <div className='text-white'>
             <h1 className='text-2xl font-medium p-1'>Humanitarian Website</h1>
             <p className='font-light'>Ailuckyfoundation is an organization that helps with the solution of poverty.Together, we’re saving lives—before, during and after disaster strikes.</p>
@@ -46,7 +46,7 @@ const Project = () => {
     </div>
     <section className=''>
       <div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800'>
           <div className='text-white'>
             <h1 className='text-2xl font-medium p-1'>Salesforce</h1>
             <p className='font-light'>A clone of Salesforce webapp</p>
@@ -64,7 +64,7 @@ const Project = () => {
     </section>
     <section className=''>
       <div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800'>
           <div className='text-white'>
             <h1 className='text-2xl font-medium p-1'>E-commerce</h1>
             <p className='font-light'>This is an e-commerce app. It enables users to select different items and add to cart.the Idea is from Jumia e-commerce app</p>
@@ -82,7 +82,7 @@ const Project = () => {
     </section>
     <section className=''>
       <div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800'>
           <div className='text-white'>
             <h1 className='text-2xl font-medium p-1'>Advise Generator</h1>
             <p className='font-light'>Advise generator is reponsible for generating qoutes to keep you motivated</p>
@@ -102,7 +102,7 @@ const Project = () => {
 
     <section className=''>
       <div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800'>
           <div className='text-white'>
             <h1 className='text-2xl font-medium p-1'>Entertainment Movie App</h1>
             <p className='font-light'>its an app created to with API to fetch updated new movies, series and Tv shows.</p>
