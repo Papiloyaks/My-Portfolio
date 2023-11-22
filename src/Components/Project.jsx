@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import ailf from '../images/ailf.jpg'
 import corporate from '../images/corporate.png'
 import jumy from '../images/jumy.png'
+import add from '../images/add.png'
+import movie from '../images/movie.png'
 import Aos from 'aos'
 
 
@@ -78,22 +80,44 @@ const Project = () => {
         <hr/>
       </div>
     </section>
-    {/* <section className=''>
+    <section className=''>
       <div>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800'>
           <div className='text-white'>
-            <h1 className='text-2xl font-medium p-1'>Humanitarian Website</h1>
-            <p className='font-light'>Ailuckyfoundation is an organization that helps with the solution of poverty.Together, we’re saving lives—before, during and after disaster strikes.</p>
-            <p><a href="/Ailuckyfoundation.com.ng">Ailuckyfoundation.com.ng</a></p>
-            <button className='border bg-black text-sm rounded-xl hover:bg-transparent w-24 h-8 text-amber-200'>Check here</button>
+            <h1 className='text-2xl font-medium p-1'>Advise Generator</h1>
+            <p className='font-light'>Advise generator is reponsible for generating qoutes to keep you motivated</p>
+            <p className='font-medium text-amber-200 font-xl mt-2'>React, Tailwind</p>
+            {/* <button className='border bg-black text-sm rounded-xl hover:bg-transparent w-24 h-8 text-amber-200'>Check here</button> */}
+            <p className='mt-5'>
+            <a className='border bg-black text-sm rounded-xl hover:bg-transparent p-2 text-amber-200' href="https://advise-app.vercel.app/">Check here</a>
+            </p>
           </div>
-          <div>
-            <img src={Ailf} width={150} alt="" />
+          <div className='lg:ms-60 py-5'>
+            <img src={add} width={180} alt="" />
           </div>
         </div>
         <hr/>
       </div>
-    </section> */}
+    </section>
+
+    <section className=''>
+      <div>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 px-8 bg-slate-800'>
+          <div className='text-white'>
+            <h1 className='text-2xl font-medium p-1'>Entertainment Movie App</h1>
+            <p className='font-light'>its an app created to with API to fetch updated new movies, series and Tv shows.</p>
+            <p className='font-medium text-amber-200 font-xl mt-2'>React, Tailwind</p>
+            <p className='mt-5'>
+            <a className='border bg-black text-sm rounded-xl hover:bg-transparent p-2 text-amber-200' href="https://entertainment-app-mu.vercel.app/">Check here</a>
+            </p>
+          </div>
+          <div className='lg:ms-60 py-5'>
+            <img src={movie} width={200} height={20} alt="" />
+          </div>
+        </div>
+        <hr/>
+      </div>
+    </section>
     </div>
     </>
     

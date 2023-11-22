@@ -10,7 +10,7 @@ const Sidebar = ({handleClose}) => {
   
   return (
     <>
-    <div className='top-0 min-h-screen w-2/3 py-5 bg-red-500 text-white py-10'>
+    <div className='top-0 min-h-screen w-2/3 py-5 bg-red-500 text-white py-10 z-2 fixed'>
     <aside>
         <div><AiOutlineClose className='float-right m-5 text-2xl text-white' onClick={handleClose}/></div>
         <div>
