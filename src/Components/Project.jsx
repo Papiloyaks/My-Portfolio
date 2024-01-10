@@ -5,6 +5,7 @@ import jumy from '../images/jumy.png'
 import add from '../images/add.png'
 import movie from '../images/movie.png'
 import shot from '../images/shot.png'
+import screen from '../images/screen.png'
 import Aos from 'aos'
 
 
@@ -136,6 +137,25 @@ const Project = () => {
           </div>
           <div className='lg:ms-60 py-5'>
             <img src={shot} width={300} height={20} alt="" />
+          </div>
+        </div>
+        <hr/>
+      </div>
+    </section>
+
+    <section className=''>
+      <div>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800'>
+          <div className='text-white'>
+            <h1 className='text-2xl font-medium p-1'>PiggyVest Clone</h1>
+            <p className='font-light'>Responsive PiggyVest clone with amazing interface</p>
+            <p className='font-medium text-amber-200 font-xl mt-2'>React, Bootstrap and CSS3</p>
+            <p className='mt-5'>
+            <a className='border bg-black text-sm rounded-xl hover:bg-transparent p-2 text-amber-200' href="https://piggevest-clone.vercel.app/">Check here</a>
+            </p>
+          </div>
+          <div className='lg:ms-60 py-5'>
+            <img src={screen} width={200} height={20} alt="" />
           </div>
         </div>
         <hr/>
