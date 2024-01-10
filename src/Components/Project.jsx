@@ -31,7 +31,7 @@ const Project = () => {
           <div className='text-white'>
             <h1 className='text-2xl font-medium p-1'>Humanitarian Website</h1>
             <p className='font-light'>Ailuckyfoundation is an organization that helps with the solution of poverty.Together, we’re saving lives—before, during and after disaster strikes.</p>
-            <p className='font-medium text-amber-200 font-xl mt-2'>HTML, CSS, and Bootstrap.</p>
+            <p className='font-medium text-amber-200 font-xl mt-2'>HTML, CSS, Javascript and Bootstrap.</p>
             <p className='mt-5'>
             <a className='border bg-black text-sm rounded-xl hover:bg-transparent p-2 text-amber-200' href=" https://papiloyaks.github.io/A.I-Lucky-Foundation/">Check here</a>
             </p>
@@ -94,6 +94,25 @@ const Project = () => {
           </div>
           <div className='lg:ms-60 py-5'>
             <img src={add} width={180} alt="" />
+          </div>
+        </div>
+        <hr/>
+      </div>
+    </section>
+
+    <section className=''>
+      <div>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800'>
+          <div className='text-white'>
+            <h1 className='text-2xl font-medium p-1'>Entertainment Movie App</h1>
+            <p className='font-light'>its an app created to with API to fetch updated new movies, series and Tv shows.</p>
+            <p className='font-medium text-amber-200 font-xl mt-2'>React, Tailwind</p>
+            <p className='mt-5'>
+            <a className='border bg-black text-sm rounded-xl hover:bg-transparent p-2 text-amber-200' href="https://entertainment-app-mu.vercel.app/">Check here</a>
+            </p>
+          </div>
+          <div className='lg:ms-60 py-5'>
+            <img src={movie} width={200} height={20} alt="" />
           </div>
         </div>
         <hr/>
