@@ -26,7 +26,7 @@ const Project = () => {
     <>
     <div data-aos="flip-right">
     <div>
-      <h1 className='ms-10 font-meduim text-amber-200 p-9 font-mono mt-20'>------- My Project</h1>
+      <h1 className='ms-10 font-meduim text-amber-200 p-9 font-mono mt-20'>My Project</h1>
     <section className=''>
       <div>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 lg:gap-96 p-6 bg-slate-800' id='portfolio'>

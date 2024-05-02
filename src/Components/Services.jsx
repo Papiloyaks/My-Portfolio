@@ -22,7 +22,7 @@ const Services = () => {
         <section>
             <div className='grid lg:grid-cols-2 text-amber-800'>
                 <div className='bg-white text-center' id='service'>
-                    <h1 className='ms-10 text-2xl text-meduim text-amber-500 float-left mt-7 font-mono'>------Services</h1>
+                    <h1 className='ms-10 text-2xl text-meduim text-amber-500 float-left mt-7 font-mono'>Services</h1>
                     <p className='flex justify-center items-center mt-20 text-2xl text-red-500'><img src={gram} width={30} alt="" /></p>
                     <h3 className='text-xl font-medium text-slate-800' >Web Designing</h3>
                     <p className='m-3'>Cater to clients looking for nostalgic or web design styles that evoke the aesthetics of past internet eras.</p>

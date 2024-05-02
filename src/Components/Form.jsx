@@ -25,7 +25,7 @@ const Form = () => {
     <div>
       <div data-aos="flip-left" className='grid lg:grid-cols-2'id='contact' >
         <div className='p-3 bg-slate-800'>
-          <h1 className='text-xl font-meduim text-amber-200 py-5'>------Contact me</h1>
+          <h1 className='text-xl font-meduim text-amber-200 py-5'>Contact me</h1>
           <div className='p-4'>
           <label className='font-semibold text-white'>Name:</label>
           <p><input className='w-full h-8 rounded' onChange={(e)=>setName(e.target.value)} type="text" /></p>
