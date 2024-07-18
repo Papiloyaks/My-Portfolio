@@ -1,14 +1,14 @@
 import React from 'react'
 import { navList } from './List'
 import { Link } from 'react-scroll'
-import logo from '../images/logo.png'
+import remover from '../images/remover.png'
 
 const Navbar = () => {
   return (
     <>
     <div className='bg-slate-800 w-full hidden lg:block py-2 text-slate-50'>
       <nav>
-        <img className='w-60' src={logo} alt="" />         
+        <img className='w-52' src={remover} alt="" />         
         <div className=''>
           <ul className='flex justify-center gap-5'>
           {
