@@ -24,7 +24,7 @@ const Home = () => {
     <div data-aos="zoom-in-left" id='about'>
     <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:px-20 lg:gap-60 p-10'>
     <div className=''>
-      <h1 className='text-slate-50 text-3xl mt-9 '>Hi, I'm <span className='text-amber-200 font-serif'>PapiloYaks<br /><span className='text-white text-2xl'>A</span><span className='ml-2 text-amber-200'>Frontend Developer.</span></span>
+      <h1 className='text-slate-50 text-3xl mt-9 '>Hi, I'm <span className='text-amber-200 font-serif'>Yaks<br /><span className='text-white text-2xl'>A</span><span className='ml-2 text-amber-200'>Frontend Developer.</span></span>
       </h1>
       <h2 className='text-xl mt-2 text-amber-200 font-light font-san'>
                     An expert in {" "}
