@@ -8,6 +8,7 @@ import {SiJavascript} from 'react-icons/si'
 import {BiLogoReact} from 'react-icons/bi'
 import {AiFillGithub} from 'react-icons/ai'
 import { IoLogoFirebase } from "react-icons/io5";
+import { FaWordpress } from "react-icons/fa6";
 import Aos from 'aos'
 
 
@@ -70,8 +71,8 @@ const Skills = () => {
         </div>
 
         <div className='text-3xl rounded-xl bg-slate-800 flex flex-col justify-center items-center hover:bg-slate-400'>
-            <div className='text-white mt-2 '><AiFillGithub/></div>
-            <div className='text-center text-white text-lg font-semibold'>Github</div>
+            <div className='text-white mt-2'><FaWordpress/></div>
+            <div className='text-center text-white text-lg font-semibold'>WordPress</div>
         </div>
 
         <div className='text-3xl rounded-xl bg-slate-800 flex flex-col justify-center items-center hover:bg-slate-400'>

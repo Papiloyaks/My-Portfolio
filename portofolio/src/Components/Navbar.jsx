@@ -6,7 +6,7 @@ import remover from '../images/remover.png'
 const Navbar = () => {
   return (
     <>
-    <div className='bg-slate-800 w-full h-20 hidden lg:block  text-slate-50 '>
+    <div className='bg-slate-800 w-full h-20 hidden lg:block text-slate-50 '>
       <nav>
         {/* <img className='w-40 -mt-2 ' src={remover} alt="" />          */}
         <div className=''>
