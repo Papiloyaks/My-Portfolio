@@ -46,7 +46,7 @@ const Home = () => {
       <p className='text-slate-50 mt-2 font-light'>I am a passionate Frontend developer with a strong background in creating both dynamic and non-dynamic websites using advanced HTML, CSS, Javascript, and React. With a relentless commitment to excellence, I do not give up when tackling challenges and finding innovative solutions. My skill set, joined with a love for continuous learning, allows me to triumph in dynamic environments and contribute to meaningful projects.</p>
       <div className='mt-5 text-white font-medium'>
       <Link to='portfolio' className='hover:bg-transparent hover:text-amber-200 me-6 border p-2 rounded bg-slate-800 text-sm' href="">See my Work</Link>
-      <a className='hover:bg-transparent hover:text-amber-200 border p-2 rounded bg-slate-800 text-sm' href="https://docs.google.com/document/d/1JeOC1QKzOZ9HMCSyt1LRUXZWqASp8bG7mbx_bvZ4YVM/edit?usp=drive_link">Download my CV</a>
+      <a className='hover:bg-transparent hover:text-amber-200 border p-2 rounded bg-slate-800 text-sm' href="https://docs.google.com/document/d/1-JqI5WG179XB0RgAgiHpWwoNzqVDNTk7by9mKbrrxg4/edit?usp=sharing">Download my CV</a>
     </div>
     </div>
 
